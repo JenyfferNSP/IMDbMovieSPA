@@ -1,0 +1,14 @@
+
+<div class="card" *ngIf="activeCard">
+    <div class="description">
+        <h3>{{ movieDetails.Title }}</h3>
+        <p>{{ movieDetails.Plot }}</p>
+        <h5>Actor {{ movieDetails.Actors }}</h5>
+    </div>
+    <div class="poster">
+        <img src="{{ movieDetails.Poster }}" alt="{{ movieDetails.Title }}">
+    </div>
+</div>
+
+
+
